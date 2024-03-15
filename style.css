@@ -1,0 +1,138 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.buttons-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.buttons-group.align-items-end {
+  align-items: flex-end;
+}
+
+.buttons-group.align-items-center {
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 1px;
+  margin-top: 20px;
+  width: fit-content;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button:hover, .button:focus {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gradient-1 {
+  background: linear-gradient(55deg, #343434 0%, #cecece 100%);
+}
+.gradient-1:hover, .gradient-1:focus {
+  background: linear-gradient(55deg, #cecece 0%, #343434 100%);
+}
+
+.gradient-2 {
+  background: linear-gradient(55deg, #563AFF 0%, #05F7E8 100%);
+}
+.gradient-2:hover, .gradient-2:focus {
+  background: linear-gradient(55deg, #05F7E8 0%, #563AFF 100%);
+}
+
+.gradient-3 {
+  background: linear-gradient(55deg, #FF3A52 0%, #F7C205 100%);
+}
+.gradient-3:hover, .gradient-3:focus {
+  background: linear-gradient(55deg, #F7C205 0%, #FF3A52 100%);
+}
+
+.gradient-4 {
+  background: linear-gradient(55deg, #CC3AFF 0%, #F70505 100%);
+}
+.gradient-4:hover, .gradient-4:focus {
+  background: linear-gradient(55deg, #F70505 0%, #CC3AFF 100%);
+}
+
+.gradient-5 {
+  background: linear-gradient(55deg, #085F3A 0%, #A9F705 100%);
+}
+.gradient-5:hover, .gradient-5:focus {
+  background: linear-gradient(55deg, #A9F705 0%, #085F3A 100%);
+}
+
+.button-short {
+  padding: 18px 20px;
+}
+
+.button-medium {
+  padding: 18px 40px;
+}
+
+.button-long {
+  padding: 18px 60px;
+}
+
+.button.border-radius-10px {
+  border-radius: 10px;
+}
+
+.button.border-radius-30px {
+  border-radius: 30px;
+}
+
+.button.rounded-right-30px {
+  border-radius: 0px 30px 30px 0px;
+}
+
+.button.rounded-left-30px {
+  border-radius: 30px 0px 0px 30px;
+}
+
+.button.rounded-up-30px {
+  border-radius: 30px 30px 0px 0px;
+}
+
+.button.rounded-down-30px {
+  border-radius: 0px 0px 30px 30px;
+}
+
+.button.rounded-top-left-30px {
+  border-radius: 30px 0px 0px 0px;
+}
+
+.button.rounded-top-right-30px {
+  border-radius: 0px 30px 0px 0px;
+}
+
+.button.rounded-bottom-left-30px {
+  border-radius: 0px 0px 0px 30px;
+}
+
+.button.rounded-bottom-right-30px {
+  border-radius: 0px 0px 30px 0px;
+}
+
+.button.rounded-leaf-down-30px {
+  border-radius: 0px 30px 0px 30px;
+}
+
+.button.rounded-leaf-up-30px {
+  border-radius: 30px 0px 30px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
